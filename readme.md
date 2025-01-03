@@ -1,0 +1,1 @@
+Hi. This didn't take long so I'm not writing a super long commit for it. I kept getting annoyed by the "New Posts" button on Twitter so I wrote a chrome extension to block it from coming up. Now I can use my X shortcuts in peace. 
