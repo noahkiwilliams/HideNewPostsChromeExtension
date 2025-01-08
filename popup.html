@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		  <title>Hide New Posts Button</title>
-		    <style>
-    body { font-family: 'Arial', sans-serif; width: 300px; padding: 10px; }
-      </style>
-	</head>
-	<body>
-		  <h2>Hide New Posts Button</h2>
-		    <button id="toggle">Toggle Button Visibility</button>
-		      <script src="popup.js"></script>
-	</body>
+<head>
+  <title>Hide X Button</title>
+  <style>
+    body {
+      width: 300px;
+      text-align: center;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+    .status-indicator {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      display: inline-block;
+      margin-right: 10px;
+    }
+    #active-indicator {
+      background-color: green;
+    }
+    #inactive-indicator {
+      background-color: red;
+    }
+  </style>
+</head>
+<body>
+  <h2>Hide X Button</h2>
+  <p>Status:</p>
+  <div id="active-indicator" class="status-indicator" style="display: none;"></div>
+  <div id="inactive-indicator" class="status-indicator" style="display: none;"></div>
+  <p id="status-text"></p>
+
+  <script src="popup.js"></script>
+</body>
 </html>
